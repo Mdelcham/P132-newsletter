@@ -1,0 +1,102 @@
+body {
+  font-family: 'Courier', monospace;
+  margin: 0; }
+  body table {
+    max-width: 680px;
+    background: white;
+    margin: 0 auto; }
+    body table .title {
+      font-size: 20px;
+      text-align: center;
+      background: #FFB815; }
+    body table .element {
+      border: 1px solid rgba(119, 119, 119, 0.3);
+      text-align: center; }
+      body table .element img {
+        margin: 10px 5px 0 5px; }
+      body table .element p {
+        color: white;
+        font-size: 18px;
+        margin: 20px 10px;
+        padding: 10px;
+        background: linear-gradient(to bottom, #666 0, #333 100%);
+        border: 1px solid black; }
+      body table .element .sale {
+        color: #fff;
+        background: #f13340;
+        text-transform: uppercase;
+        padding: 9px 0 7px;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
+        width: 130px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        right: -33px;
+        z-index: 1;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
+    body table .price {
+      text-align: center; }
+    body table .find_element {
+      height: 50px; }
+    body table .box {
+      position: relative; }
+    body table .ribbon {
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      z-index: 1;
+      overflow: hidden;
+      width: 75px;
+      height: 75px;
+      text-align: right; }
+    body table .ribbon span {
+      font-size: 10px;
+      font-weight: bold;
+      color: #FFF;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 20px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      width: 100px;
+      display: block;
+      background: #79A70A;
+      background: linear-gradient(#F70505 0%, #8F0808 100%);
+      box-shadow: 0 3px 10px -5px black;
+      position: absolute;
+      top: 19px;
+      right: -21px; }
+    body table .ribbon span::before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 88%;
+      z-index: -1;
+      border-left: 3px solid #8F0808;
+      border-right: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808; }
+    body table .ribbon span::after {
+      content: "";
+      position: absolute;
+      right: 0px;
+      top: 88%;
+      z-index: -1;
+      border-left: 3px solid transparent;
+      border-right: 3px solid #8F0808;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808; }
+    body table .more .element a {
+      text-decoration: none;
+      color: #FFB815; }
+    body table .space {
+      height: 5px; }
+    body table .redirection {
+      text-align: center; }
+      body table .redirection a {
+        color: #FFB815;
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
